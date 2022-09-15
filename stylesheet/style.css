@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:'Titillium Web', sans-serif; ;
+}
+section{
+    padding:100px 0px;
+    
+}
+.underline{
+    width:8%;
+    border-bottom: 4px solid;
+    color: rgb(145, 140, 140);
+    margin: 20px auto;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+padding: 20px 0px;
+}
+/* header part*/
+header{
+    width: 100%;
+    float: left;
+    padding: 20px o;
+background-color: #87509c;
+color: #fff;
+}
+nav {width: 100%;
+    float: left;
+
+}
+.logo-part{width:50%;
+    float: left;
+padding-bottom: 20px;
+}
+.menu-part{
+    width:50%;
+    float: left;
+padding-top: 20px;
+}
+.menu-part li{
+    list-style:none;
+    display: inline-block;
+
+}
+
+.menu-part a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+margin: 10px;
+font-weight: 100;
+padding: 10px 0;
+text-align: justify;
+}
+.menu-part a:hover{background-color: rgb(39, 2, 39);
+}
+p1{
+    display: inline-block;
+    
+    text-align: center;
+}
+p2{display: inline-block;
+    
+    text-align: center;
+
+}
+/*hero part*/
+
+#hero
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background-color: #87509c;
+    padding-top: 50px;
+    
+}
+   
+.hero-writting-part{
+    width: 100%;
+    float: left;
+font-size: 30px;
+}
+.hero-link-part{
+width: 100%;
+float: left;
+
+}
+
+.hero-link-part a{
+    text-decoration: none;
+    background-color: rgb(207, 77, 30);
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20 px 0px;
+    padding: 20px 30px 20px 30px;
+    font-size: x-large;
+    margin-top: 5%;
+}
+/*service section*/
+
+#service{width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: #fff;
+text-align: center;
+}
+.service-writting-part{width: 100%;
+    float: left;
+
+}
+
+.service-writting-part h1{
+    font-size: 35px;
+font-family: 'Titillium Web', sans-serif;
+}
+.service-writting-part p{
+    margin: 50% ;
+    padding-bottom: 20px;
+    font-size: 5px;
+    text-align: center;
+}
+.service-box-part{width: 100%;
+    float: left;}
+
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 5px;
+    
+}
+.service-box h2{
+    padding: 10px;
+}
+.service-box img{padding: 20px;
+
+}
+#team{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color:#e7f1f8 ;
+
+}
+.team-box-part{
+    width: 100%;
+    float: left;
+    padding: 50px;
+
+}
+.team-box{
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+}
+.team-writting-part h2{color: rgb(82, 78, 78);
+    font-size: 35px;
+    padding: 10px;
+
+}
+.team-writting-part p{
+    color: rgb( 56, 52, 52);
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.team-logo-part{
+    margin-top: 20px;
+    padding: 5px;
+}
+.team-box-part p{
+    color: rgb(85, 82, 82);
+    font-size: 10px;
+}
+
+.team-box h1{
+    font-size: 20px;
+    color:black ;
+    padding-top: 25px;
+}
+.team-box p1{color:#1069b8 ;
+    font-size: 10px;
+    padding-bottom: 10px;
+
+}
+.team-writting-part .underline{width:8%;
+    border-bottom: 4px solid;
+    color: rgb(105, 102, 102);
+    margin: 20px auto;
+
+}
+#skills{width: 100%;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+
+
+}
+
+.skills-writting-part{
+    width: 100%;
+    float: left;
+}
+
+
+.skills-box-part{
+    width: 100%;
+    float: left;
+}
+
+.skills-writting-part h1{
+    color: rgb(26, 24, 24);
+    font-size: 30px;
+    padding: 10px;
+}
+.skills-writting-part p1{
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.skill-box{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    
+}
+.skill-box img{
+    margin: 40px;
+}
+#portfolio{
+    width: 100%;
+    float: left;
+    background-color:#ffdd99 ;
+    text-align: center;
+}
+.portfolio-writting-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: black;
+}
+.portfolio-writting-part p1{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    padding: 20px;
+}
+.portfolio-writting-part h1{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.catagories{
+    width: 100%;
+    float: left;
+    text-decoration: none;
+    overflow: auto;
+    
+    
+}
+.catagories  a{
+    display: block;
+    background-color: #ebc985;
+    color: black;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-left: 800%;
+    
+
+}
+
+.catagories a.active{
+    background-color: #fff;
+    color: black;
+    
+    margin-right: 10px;
+    
+    
+}
+.catagories li{
+    
+    float: left;
+    text-decoration: none;
+    padding-left: 10px 20px ;
+    display: inline;
+
+}
+.work-box-part{
+    width: 100%;
+    float: left;
+}
+.work-box{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.work-box img{width: 100%;
+    float: left;
+    padding: 10px;
+
+}
+.work-box p{
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+}
+.btn button{
+    border: none;
+    background-color:#17c2a4;
+    padding: 10px 15px;
+display: inline-block;
+text-decoration: none;
+font-size: 16px;
+text-align: center;
+margin: 10px;
+
+
+
+}
+
+#people{
+    width: 100%;
+    float: left;
+    background-color:#d74680 ;
+    text-align: center;
+    color: #fff;
+}
+.people-writting-part{
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+.people-writting-part p{
+    font-size: 8px;
+    padding-top: 5px;
+    
+}
+.p-row{
+    width: 50%;
+    float: left;
+
+}
+.p-row img{
+    width: 25%;
+    float: left;
+    padding-left:5 px;
+}
+.p-row p{
+    
+    font-style: italic;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+.p-row h2{
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 50px;
+}
+.p-row p1{
+    font-size: 10px;
+    
+    color: #e9a317;
+    padding-left: 80px;
+
+}
+#contract{
+    width: 100%;
+    float: left;
+    background-color: #3c5499;
+    color: #fff;
+    text-align: center;
+
+}
+.contract-writting-part{
+    width: 100%;
+    float: left;
+    padding: 20px;
+}.contract-writting-part h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.contract-writting-part p1{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.contract-form-part{
+    width:90%;
+    float: left;
+    margin: auto;
+    
+    
+}
+.form-row-1{
+    width: 90%;
+    float: left;
+    text-align: center;
+    margin: 10px;
+
+}
+.form-name-part input{
+    color: white;
+    background-color: #273a71;
+    padding: 20px;
+    width: 45%;
+    float: left;
+    text-align: center;
+    font-weight: 800;
+    margin-right: 10px;
+    
+
+
+}
+.form-email-part input{
+    color: white;
+    background-color: #273a71;
+    padding: 20px;
+    width: 45%;
+    float: left;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 20px;
+
+
+}
+.form-row-2{
+    width: 100%;
+    float: left;
+}
+.form-row-2 textarea{
+    background-color: #273a71;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.form-row-2 input{
+    background-color: #30bae7;
+    color: #f7fbfd;
+    font-weight: 900;
+    margin: 20px;
+    padding: 15px;
+}
+footer{
+    width: 100%;
+    float: left;
+    background-color: #344b8e;
+    color: white;
+    padding: 20px 0px;
+}
+nav{width: 100%;
+    float: left;
+
+}.navigation-part li{
+    display: inline;
+    padding: 50px 30px;
+
+}
+.navigation-part a{ margin: 10px;
+    color: white;
+    text-decoration: none;
+    margin:auto;
+
+    font-size: 20px;
+
+
+}
+.navigation-part a.active{
+    color: #17c2a4;
+}
